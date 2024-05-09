@@ -1,0 +1,129 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/team7lmao/Desktop/patient_zero/backend/CheeseriaApi/CheeseriaApi.csproj": {}
+  },
+  "projects": {
+    "/home/team7lmao/Desktop/patient_zero/backend/CheeseriaApi.Contracts/CheeseriaApi.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/team7lmao/Desktop/patient_zero/backend/CheeseriaApi.Contracts/CheeseriaApi.Contracts.csproj",
+        "projectName": "CheeseriaApi.Contracts",
+        "projectPath": "/home/team7lmao/Desktop/patient_zero/backend/CheeseriaApi.Contracts/CheeseriaApi.Contracts.csproj",
+        "packagesPath": "/home/team7lmao/.nuget/packages/",
+        "outputPath": "/home/team7lmao/Desktop/patient_zero/backend/CheeseriaApi.Contracts/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/team7lmao/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.128/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/team7lmao/Desktop/patient_zero/backend/CheeseriaApi/CheeseriaApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/team7lmao/Desktop/patient_zero/backend/CheeseriaApi/CheeseriaApi.csproj",
+        "projectName": "CheeseriaApi",
+        "projectPath": "/home/team7lmao/Desktop/patient_zero/backend/CheeseriaApi/CheeseriaApi.csproj",
+        "packagesPath": "/home/team7lmao/.nuget/packages/",
+        "outputPath": "/home/team7lmao/Desktop/patient_zero/backend/CheeseriaApi/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/team7lmao/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/team7lmao/Desktop/patient_zero/backend/CheeseriaApi.Contracts/CheeseriaApi.Contracts.csproj": {
+                "projectPath": "/home/team7lmao/Desktop/patient_zero/backend/CheeseriaApi.Contracts/CheeseriaApi.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "ErrorOr": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.128/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

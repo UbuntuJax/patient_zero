@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheeseriaApi", "CheeseriaApi\CheeseriaApi.csproj", "{ED1B2C9E-C8C2-4A98-A1DA-951BBDB81C65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheeseriaApi.Contracts", "CheeseriaApi.Contracts\CheeseriaApi.Contracts.csproj", "{FD1BFD0F-080E-4585-A38E-E4EC35D4887F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED1B2C9E-C8C2-4A98-A1DA-951BBDB81C65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED1B2C9E-C8C2-4A98-A1DA-951BBDB81C65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED1B2C9E-C8C2-4A98-A1DA-951BBDB81C65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED1B2C9E-C8C2-4A98-A1DA-951BBDB81C65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD1BFD0F-080E-4585-A38E-E4EC35D4887F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD1BFD0F-080E-4585-A38E-E4EC35D4887F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD1BFD0F-080E-4585-A38E-E4EC35D4887F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD1BFD0F-080E-4585-A38E-E4EC35D4887F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

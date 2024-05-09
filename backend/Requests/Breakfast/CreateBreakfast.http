@@ -1,0 +1,13 @@
+POST http://localhost:5141/breakfasts
+Content-Type: application/json
+
+{
+    "name": "cheese",
+    "colour": "yellow",
+    "pricePerKg": 10.0,
+    "imgUrl": "www"
+}
+
+###
+
+GET https://localhost:7089/breakfasts/a8a20439-6b02-4dea-b0ab-921442cb1545
